@@ -1,4 +1,4 @@
-h1 {
+/*h1 {
   color: black;
   font-size: 50px;
   font-weight: 100px;
@@ -29,9 +29,9 @@ li:first-letter {
 .app {
   max-width: 475px;
   margin: 30px auto;
-}
+}*/
 
-/*.App {
+.App {
   text-align: center;
 }
 
@@ -68,4 +68,4 @@ li:first-letter {
   to {
     transform: rotate(360deg);
   }
-}*/
+}
