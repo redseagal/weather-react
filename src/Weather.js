@@ -68,16 +68,16 @@ export default function Weather() {
           </div>
         </div>
       </div>
-      <small id="link">
+      <footer id="link">
+        This project was coded by Iliana Ramirez and is{" "}
         <a
-          href="https://github.com/redseagal/weather-app"
+          href="https://github.com/redseagal/weather-react"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Open-source code
+          open-sourced on GitHub
         </a>
-        <span>by Iliana Ramirez</span>
-      </small>
+      </footer>
     </div>
   );
 }
