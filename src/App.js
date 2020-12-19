@@ -6,9 +6,9 @@ import Weather from "./Weather";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="container">
         <Weather city="Chicago" />
-      </header>
+      </div>
     </div>
   );
 }
