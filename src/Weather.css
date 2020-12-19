@@ -1,10 +1,17 @@
 .Weather {
-  max-width: 500px;
-  height: 490px;
-  margin: 30px auto;
-  padding: 30px;
   border: 1px solid #dadde1;
-  border-radius: 5px;
+  border-radius: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 490px;
+  margin-top: 40px;
+  max-width: 500px;
+  padding: 30px;
+}
+.Weather h1 {
+  color: rgb(135, 135, 135);
+  font-size: 55px;
+  line-height: 39px;
+  margin-bottom: 20px;
 }
 
 .Weather .overview {
@@ -30,7 +37,7 @@
   top: -34px;
 }
 
-.Weather .weather-temperature .active {
+/*.Weather .weather-temperature .active {
   color: rgb(135, 135, 135);
   cursor: default;
 }
@@ -39,7 +46,7 @@
   text-decoration: none;
 }
 
-.Weather .weather-forecast {
+/*.Weather .weather-forecast {
   margin-top: 90px;
 }
 
@@ -68,4 +75,4 @@
   line-height: 15px;
   white-space: nowrap;
   margin-bottom: 10px;
-}
+}*/

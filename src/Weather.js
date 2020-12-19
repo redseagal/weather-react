@@ -44,14 +44,14 @@ export default function Weather() {
             </ul>
           </div>
           <div>
-            <form id="search-form" className="mt-4">
+            <form>
               <div className="row">
                 <div className="col-10">
                   <input
                     type="search"
                     placeholder="Type a city.."
                     className="form-control"
-                    id="city-input"
+                    autoFocus="on"
                     autocomplete="off"
                   />
                 </div>
@@ -60,7 +60,6 @@ export default function Weather() {
                     type="submit"
                     value="search"
                     className="btn btn-primary w-200"
-                    id="search-btn"
                   />
                 </div>
               </div>
