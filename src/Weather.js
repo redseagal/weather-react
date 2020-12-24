@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import DateTime from "./DateTime";
 import axios from "axios";
 import "./Weather.css";
 
@@ -11,7 +12,7 @@ export default function Weather(props) {
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      date: "Wednesday 07:00",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       imgUrl: "https://ssl.gstatic.com/onebox/weather/48/sunny.png",
       wind: response.data.wind.speed,
@@ -26,7 +27,9 @@ export default function Weather(props) {
           <div className="overview">
             <h1>{weatherData.city}</h1>
             <ul>
-              <li>Last updated:{weatherData.date}</li>
+              <li>
+                <DateTime date={weatherData.date} />
+              </li>
               <li>{weatherData.description}</li>
             </ul>
           </div>
@@ -75,16 +78,6 @@ export default function Weather(props) {
             </div>
           </div>
         </div>
-        <footer id="link">
-          This project was coded by Iliana Ramirez and is{" "}
-          <a
-            href="https://github.com/redseagal/weather-react"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            open-sourced on GitHub
-          </a>
-        </footer>
       </div>
     );
   } else {
