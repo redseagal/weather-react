@@ -78,6 +78,16 @@ export default function Weather(props) {
             </div>
           </div>
         </div>
+        <footer id="link">
+          This project was coded by Iliana Ramirez and is{" "}
+          <a
+            href="https://github.com/redseagal/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>
+        </footer>
       </div>
     );
   } else {
