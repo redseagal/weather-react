@@ -18,10 +18,11 @@
   margin-bottom: 20px;
 }
 
-.Weather .weather-temperature img {
+.Weather .weather-temperature canvas {
   margin-right: 10px;
-  height: 64px;
-  width: 64px;
+  /*height: 64px;
+  width: 64px;*/
+  margin-bottom: 10px;
 }
 
 .Weather .weather-temperature strong {
