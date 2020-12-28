@@ -3,7 +3,7 @@
   border-radius: 4px;
   font-family: Arial, Helvetica, sans-serif;
   height: 490px;
-  margin-top: 40px;
+  margin-top: 30px;
   max-width: 500px;
   padding: 30px;
 }
@@ -14,14 +14,25 @@
   line-height: 39px;
   margin-bottom: 20px;
 }
+#searchbtn {
+  margin-left: -20px;
+}
 
 .Weather .overview {
   margin-bottom: 40px;
 }
 
+.weather .temperature {
+  font-size: 10px;
+}
+
+#tempdigit {
+  font-size: 50px;
+}
+
 .Weather .weather-temperature canvas {
-  margin-right: px;
+  margin-right: 10px;
   height: 64px;
   width: 64px;
-  margin-bottom: -10px;
+  margin-bottom: -20px;
 }
