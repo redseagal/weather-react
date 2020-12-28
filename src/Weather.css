@@ -7,6 +7,7 @@
   max-width: 500px;
   padding: 30px;
 }
+
 .Weather h1 {
   color: rgb(135, 135, 135);
   font-size: 55px;
@@ -15,65 +16,12 @@
 }
 
 .Weather .overview {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .Weather .weather-temperature canvas {
-  margin-right: 10px;
-  /*height: 64px;
-  width: 64px;*/
-  margin-bottom: 10px;
+  margin-right: px;
+  height: 64px;
+  width: 64px;
+  margin-bottom: -10px;
 }
-
-.Weather .weather-temperature strong {
-  color: #000000;
-  font-size: 55px;
-  line-height: 1;
-  font-weight: 400;
-}
-
-.Weather .weather-temperature .units {
-  position: relative;
-  font-size: 14px;
-  top: -34px;
-}
-
-/*.Weather .weather-temperature .active {
-  color: rgb(135, 135, 135);
-  cursor: default;
-}
-
-.Weather .weather-temperature .active:hover {
-  text-decoration: none;
-}
-
-/*.Weather .weather-forecast {
-  margin-top: 90px;
-}
-
-.Weather .weather-forecast h3 {
-  color: #757575;
-  font-size: 14px;
-  font-weight: 400;
-  text-align: center;
-  height: 15px;
-  padding-top: 7px;
-}
-
-.Weather .weather-forecast img {
-  display: block;
-  margin: 0 auto;
-  height: 48px;
-  width: 48px;
-}
-
-.Weather .weather-forecast-temperature {
-  text-align: center;
-  color: #ff9a9e;
-  font-size: 12px;
-  font-weight: 400;
-  height: auto;
-  line-height: 15px;
-  white-space: nowrap;
-  margin-bottom: 10px;
-}*/
